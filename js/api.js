@@ -4,7 +4,7 @@
  * Giao tiếp ứng dụng với Cloudflare Worker / Google Apps Script Backend.
  ******************************************************************************/
 
-const WEB_APP_URL = "https://YOUR_WORKER_URL";
+const WEB_APP_URL = "https://tight-block-c92c.hanhborn.workers.dev/";
 const REQUEST_TIMEOUT_MS = 15000; // Thời gian chờ tối đa: 15 giây
 
 export class Api {
