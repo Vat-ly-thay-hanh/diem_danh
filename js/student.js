@@ -33,7 +33,7 @@ export class Student {
         this.school = data.school?.trim() ?? "";
 
         // Đã chỉnh sửa hay chưa
-        this.changed = Boolean(data.changed ?? false);
+        this.changed = Boolean(data.isChanged ?? false);
 
     }
 
