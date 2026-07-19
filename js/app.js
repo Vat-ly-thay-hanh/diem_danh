@@ -12,7 +12,7 @@ import { Search } from "./search.js";
 import { Attendance } from "./attendance.js";
 import { StudentManager } from "./StudentManager.js";
 import { SeatManager } from "./SeatManager.js";
-import { SeatMap } from "./SeatMap.js";
+import { SeatMap } from "./seatMap.js";
 
 class App {
     constructor() {
