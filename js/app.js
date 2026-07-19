@@ -10,8 +10,8 @@ import { Dialog } from "./dialog.js";
 import { Api } from "./api.js";
 import { Search } from "./search.js";
 import { Attendance } from "./attendance.js";
-import { StudentManager } from "./StudentManager.js";
-import { SeatManager } from "./SeatManager.js";
+import { StudentManager } from "./studentManager.js";
+import { SeatManager } from "./seatManager.js";
 import { SeatMap } from "./seatMap.js";
 
 class App {
