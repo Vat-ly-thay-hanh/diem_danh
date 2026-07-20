@@ -156,6 +156,10 @@ class App {
             const students = await this.api.getStudents(
                 this.state.selectedClass
             );
+
+            console.log("===== students =====");
+            console.log(students);
+
             this.studentManager.clear();
             students.forEach(student => {
                 this.studentManager.add(student);
