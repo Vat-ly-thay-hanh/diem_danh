@@ -1,5 +1,5 @@
 /******************************************************************************
- * StudentManager.js
+ * studentManager.js
  * ----------------------------------------------------------------------------
  * Quản lý toàn bộ danh sách học sinh.
  ******************************************************************************/
@@ -16,10 +16,23 @@ export class StudentManager {
        Thêm học sinh
     ======================================================================= */
     add(student) {
+
         if (!(student instanceof Student)) {
-            throw new Error("Student không hợp lệ.");
+
+            student = new Student(
+                student.row,
+                student.lastName,
+                student.firstName,
+                student.parentPhone,
+                student.studentPhone,
+                student.school,
+                student.isChanged
+            );
+
         }
+
         this.students.set(student.row, student);
+
     }
 
     /* =======================================================================
