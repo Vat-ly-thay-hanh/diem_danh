@@ -64,13 +64,6 @@ export class Api {
             action: "getStudents",
             className: className
         });
-
-        console.log("===== API getStudents =====");
-        console.log(result);
-        console.log("students =", result.students);
-        console.log("isArray =", Array.isArray(result.students));
-        console.log("count =", result.students?.length);
-
         return result.students;
     }
 
