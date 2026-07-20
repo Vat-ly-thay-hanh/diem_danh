@@ -18,17 +18,7 @@ export class StudentManager {
     add(student) {
 
         if (!(student instanceof Student)) {
-
-            student = new Student(
-                student.row,
-                student.lastName,
-                student.firstName,
-                student.parentPhone,
-                student.studentPhone,
-                student.school,
-                student.isChanged
-            );
-
+            student = new Student(student);
         }
 
         this.students.set(student.row, student);
